@@ -71,7 +71,7 @@ font-style: italic;
 }
 
 
-.encabezado {
+/* .encabezado {
     height: auto;
     width: auto;
     position: relative;
@@ -106,9 +106,9 @@ main {
     margin: auto;
     /* position: relative; */
     
-}
+/* } */
 
-.opciones {
+/* .opciones {
     text-align: center;
     position: relative;
     top: 200px;
@@ -181,7 +181,7 @@ a {
 .formulario textarea {
     width: 100%;
     max-width: 400px; /* o el valor que prefieras */
-    padding: 10px;
+    /* padding: 10px;
     box-sizing: border-box;
 }
 
@@ -202,4 +202,4 @@ a {
 
 
 
-
+ */ 
