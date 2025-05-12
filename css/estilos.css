@@ -123,6 +123,12 @@ font-style: italic;
     height: auto;
 }
 
+/* Footer */
+.footer.dos {
+    margin-top: 30px;
+    text-align: center;
+}
+
 /* .encabezado {
     height: auto;
     width: auto;
