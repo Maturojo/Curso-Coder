@@ -112,6 +112,12 @@ font-style: italic;
     align-items: center;
 }
 
+.fotoVari {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 /* .encabezado {
     height: auto;
     width: auto;
