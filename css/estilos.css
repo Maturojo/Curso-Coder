@@ -104,6 +104,14 @@ font-style: italic;
     gap: 20px;
 }
 
+/* Sección derecha */
+.derecha {
+    flex: 1 1 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* .encabezado {
     height: auto;
     width: auto;
