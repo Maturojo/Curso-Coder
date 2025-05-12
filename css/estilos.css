@@ -136,7 +136,8 @@ font-style: italic;
 }
 /* Sección derecha */
 .derecha {
-    flex: 1 1 400px;
+    flex: 1;
+    max-width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
