@@ -92,7 +92,6 @@ font-style: italic;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* height: 100vh; */
     padding: 40px;
     box-sizing: border-box;
     gap: 50px;
@@ -100,6 +99,7 @@ font-style: italic;
     
 } 
 
+/* Logo de sur maderas */
 .encabezado .logo {
     max-width: 70px;
     height: auto;
@@ -120,19 +120,20 @@ font-style: italic;
     font-size: 1.2rem;
     letter-spacing: 5px;
     margin-top: 90px;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
+/* varillado de pino */
 .catalogoExclusivo {
     font-weight: 700;
     font-size: 2.5rem;
-    margin-bottom: 40px;
+    margin-bottom: 150px;
 }
 
 .texto {
     font-size: 1rem;
     line-height: 1.6;
-    margin-bottom: 120px;
+    margin-bottom: 200px;
 }
 
 
@@ -145,9 +146,9 @@ font-style: italic;
     width: 100%;
 }
 
+/* Foto de varillado */
 .fotoVari {
-    max-width: 70%;
-    height: auto;
+    max-width: 100%;
     border: 7px solid #f5f5f5;
     box-sizing: border-box;
     border-radius: 4px;
@@ -165,7 +166,7 @@ font-style: italic;
 /* Responsive para pantallas chicas */
 @media (max-width: 768px) {
     body {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .main {
@@ -173,23 +174,25 @@ font-style: italic;
         padding: 20px;
         gap: 20px;
         align-items: center;
+        margin: 0;
+
     }
 
     .encabezado {
-        order: 1;
         text-align: center;
     }
 
     .title.varillado {
-        order: 2;
+        margin-top: 0px;
         text-align: center;
     }
 
     .derecha {
-        order: 3;
+
         width: 100%;
         display: flex;
         justify-content: center;
+        margin: 0;
     }
 
     .fotoVari {
@@ -198,13 +201,11 @@ font-style: italic;
     }
 
     .divTexto {
-        order: 4;
         text-align: center;
         padding: 10px 0;
     } 
 
     .footer.dos {
-        order: 5;
         text-align: center;
         margin-top: 20px;
     }
@@ -216,6 +217,15 @@ font-style: italic;
         align-items: center;
         gap: 15px;
         text-align: center;
+        margin: 0;
+    }
+
+    .catalogoExclusivo {
+        margin-bottom: 0;
+    }
+
+    .texto {
+        margin-bottom: 50px;
     }
 }
 
