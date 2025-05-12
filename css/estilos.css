@@ -89,10 +89,12 @@ font-style: italic;
 
 .main {
     display: flex;
-    
-    
-    
- } 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+} 
 
 /* .encabezado {
     height: auto;
