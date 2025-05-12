@@ -129,6 +129,23 @@ font-style: italic;
     text-align: center;
 }
 
+/* Responsive para pantallas chicas */
+@media (max-width: 768px) {
+    .main {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    }
+
+    .izquierda, .derecha {
+    flex: 1 1 100%;
+    }
+
+    .encabezado img.logo {
+    margin-bottom: 20px;
+    }
+}
+
 /* .encabezado {
     height: auto;
     width: auto;
