@@ -96,63 +96,65 @@ font-style: italic;
     padding: 40px;
     box-sizing: border-box;
     gap: 50px;
-    align-items: center;
+    text-align: center;
+    
 } 
+
+.encabezado .logo {
+    max-width: 70px;
+    height: auto;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
 
 /* Sección izquierda */
 .izquierda {
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
-    gap: 20px;
+    flex: 1;
+    max-width: 500px;
+    margin-left: 80px;
 }
 
-/* Estilo del titulo de sur maderas  */
-.izquierda h4 {
+.surMaderas {
+    font-weight: 300;
+    font-size: 1.2rem;
     letter-spacing: 5px;
-    font-size: 0.9rem;
-    margin: 0;
+    margin-top: 90px;
+    margin-bottom: 10px;
 }
 
-/* Estilo de varillado de pino */
-.izquierda h1 {
-    font-size: 1.8rem;
-    margin: 0;
+.catalogoExclusivo {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
 }
 
-/* Estilo al texto */
-.izquierda .texto {
+.texto {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.6;
+    margin-bottom: 120px;
 }
 
-/* Estilo pie de pagina */
-.footer.dos {
-    font-size: 0.9rem;
-    margin-top: 30px;
-}
+
 /* Sección derecha */
 .derecha {
     flex: 1;
-    max-width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .fotoVari {
-    max-width: 100%;
+    max-width: 70%;
+    height: auto;
     border: 7px solid #f5f5f5;
     box-sizing: border-box;
     border-radius: 4px;
+    object-fit: contain;
 }
 
-.encabezado img.logo {
-    max-width: 150px;
-    height: auto;
-}
+
 
 /* Footer */
 .footer.dos {
