@@ -118,6 +118,11 @@ font-style: italic;
     border-radius: 10px;
 }
 
+.encabezado img.logo {
+    max-width: 150px;
+    height: auto;
+}
+
 /* .encabezado {
     height: auto;
     width: auto;
