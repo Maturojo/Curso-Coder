@@ -87,6 +87,12 @@ font-style: italic;
     font-style: italic;
 }
 
+.main {
+    display: flex;
+    
+    
+    
+ } 
 
 /* .encabezado {
     height: auto;
