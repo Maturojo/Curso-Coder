@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
 .main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -19,6 +26,7 @@
     padding: 10px 0;
 }
 
+/* Logo de sur maderas */
 .logo {
     max-width: 70px;
     height: auto;
@@ -33,7 +41,9 @@
 }
 
 .fotoVari {
-    max-width: 100%;
+    width: 60%;
+    max-width: 400%;
+    height: auto;
     border: 8px solid #f5f5f5;
     border-radius: 6px;
     box-sizing: border-box;
