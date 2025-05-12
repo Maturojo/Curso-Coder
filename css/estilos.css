@@ -110,6 +110,19 @@ font-style: italic;
     gap: 20px;
 }
 
+/* Estilo del titulo de sur maderas  */
+.izquierda h4 {
+    letter-spacing: 5px;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Estilo de varillado de pino */
+.izquierda h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
 /* Sección derecha */
 .derecha {
     flex: 1 1 400px;
