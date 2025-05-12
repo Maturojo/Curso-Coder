@@ -1,22 +1,28 @@
-/* @media (max-width: 768px) { */
-    body {
-    background-color: #8c8c8c;
-    color: #f5f5f5;
-    font-family: "Lato", sans-serif;
-    font-size: 14px; /* Reducir el tamaño de fuente */
+* {
     margin: 0;
     padding: 0;
-    
-    }
-    
-    .encabezado h1 {
-        font-size: 1.5rem; /* Ajustar el tamaño de los títulos */
-    }
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
 
-    .opciones a {
-        font-size: 1.1rem; /* Ajustar el tamaño de los enlaces */
-        margin-bottom: 15px; /* Asegurar que los enlaces tengan margen suficiente */
-    }
+body {
+background-color: #8c8c8c;
+color: #f5f5f5;
+font-family: "Lato", sans-serif;
+font-size: 14px; /* Reducir el tamaño de fuente */
+margin: 0;
+padding: 0;
+    
+}
+    
+.encabezado h1 {
+        font-size: 1.5rem; /* Ajustar el tamaño de los títulos */
+}
+
+.opciones a {
+    font-size: 1.1rem; /* Ajustar el tamaño de los enlaces */
+    margin-bottom: 15px; /* Asegurar que los enlaces tengan margen suficiente */
+}
 
 
 
@@ -89,19 +95,17 @@ font-style: italic;
 
 .main {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* flex-wrap: wrap; */
+    flex-direction: column;
     justify-content: center;
     height: 100vh;
     padding: 40px;
     box-sizing: border-box;
     gap: 50px;
+    align-items: center;
 } 
 
 /* Sección izquierda */
 .izquierda {
-    flex: 1;
     max-width: 500px;
     display: flex;
     flex-direction: column;
@@ -109,7 +113,7 @@ font-style: italic;
     text-align: center;
     gap: 20px;
 }
-
+ 
 /* Estilo del titulo de sur maderas  */
 .izquierda h4 {
     letter-spacing: 5px;
@@ -146,6 +150,7 @@ font-style: italic;
 .fotoVari {
     max-width: 100%;
     border: 7px solid #f5f5f5;
+    box-sizing: border-box;
     border-radius: 4px;
 }
 
@@ -179,7 +184,7 @@ font-style: italic;
     }
 
     .title.varillado {
-        order: 1;
+        order: 2;
         text-align: center;
     }
 
@@ -229,4 +234,3 @@ font-style: italic;
         gap: 50px;
     }
 }
-
