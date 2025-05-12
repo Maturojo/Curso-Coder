@@ -13,11 +13,18 @@
 .encabezado {
     grid-column: 1 / -1;
     text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0;
 }
 
 .logo {
-    max-width: 150px;
+    max-width: 70px;
     height: auto;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    
 }
 
 .imagen {
