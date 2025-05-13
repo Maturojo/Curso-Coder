@@ -1,9 +1,47 @@
-<h1 align="center">Hi 👋, I'm Matias rojo</h1>
-<h3 align="center">A passionate frontend developer from Argentina</h3>
+# Catálogo Exclusivo – Sur Maderas
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+Este proyecto es un catálogo web desarrollado como práctica integradora para aplicar distintas técnicas de maquetación: **Flexbox**, **CSS Grid** y **Bootstrap**.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> </p>
+## 💻 Objetivo
+
+Recrear una landing page para Sur Maderas, presentando sus productos y secciones principales, con diseño responsive y estética limpia.
+
+## 🔧 Tecnologías usadas
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- Flexbox
+- Grid
+- Google Fonts (Lato)
+
+## 🧩 Estructura del proyecto
+
+Cada página está maquetada utilizando una técnica distinta:
+
+| Página             | Técnica principal | Descripción |
+|--------------------|------------------|-------------|
+| `index.html`       | Bootstrap         | Página principal con título, logo y navegación. |
+| `varillado.html`   | Flexbox           | Imagen a la derecha y texto a la izquierda, 100% responsive. |
+| `muebles.html`     | CSS Grid          | Presentacion de muebles con imágen distribuida con grid. |
+| `nosotros.html`    | Flexbox           | Texto justificado y centrado verticalmente. |
+| `contacto.html`    | Bootstrap         | Formulario de contacto con inputs responsivos y diseño simple. |
+
+## 🎨 Diseño
+
+- Fondo gris oscuro (`#8c8c8c`) para mantener un estilo sobrio y elegante.
+- Tipografía principal: **Lato**, importada desde Google Fonts.
+- Todo el contenido está centrado visualmente y adaptado para pantallas grandes y móviles.
+
+## 📱 Responsive
+
+Cada página se ajusta automáticamente a pantallas de diferentes tamaños.  
+Se usaron `media queries`, clases de Bootstrap y unidades relativas para lograrlo.
+
+## 🙌 Créditos
+
+Diseñado y desarrollado por **Matías Rojo**  
+Trabajo realizado para entrega numero 2.
+
+---
+
