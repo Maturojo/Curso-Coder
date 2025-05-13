@@ -40,6 +40,7 @@
     justify-content: center;
 }
 
+/* foto de muebles */
 .fotoVari {
     width: 60%;
     max-width: 400%;
@@ -50,19 +51,24 @@
 }
 
 .contenido {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+    padding: 20px;
     gap: 20px;
     text-align: center;
+    margin-right: 80px;
 }
 
 .title h4 {
     letter-spacing: 4px;
     margin: 0;
+    
 }
 
 .title h1 {
     margin: 0;
+    margin-bottom: 150px;
 }
 
 .footer.dos {
@@ -71,16 +77,34 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+
     .main-grid {
-    grid-template-columns: 1fr;
-    padding: 20px;
+        grid-template-columns: 1fr;
+        padding: 20px;
     }
 
-.imagen, .contenido {
-    order: initial;
+    .encabezado {
+        order: 1;
+        justify-content: center;
     }
 
-.fotoVari {
-    max-width: 90%;
+    .imagen {
+        order: 1;
+    }
+
+    .contenido {
+        order: 2;
+        margin-right: 5px;
+        margin: 0;
+    
+    }
+
+    .fotoVari {
+        max-width: 100%;
+    }
+
+    .title.varillado {
+        font-size: 15px;
+        margin-bottom: -100px;
     }
 }
