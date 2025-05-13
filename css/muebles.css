@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    padding: 40px;
+    padding: 20px;
     align-items: center;
     background-color: #8c8c8c;
     color: #f5f5f5;
@@ -103,7 +103,7 @@
         max-width: 100%;
     }
 
-    .title.varillado {
+    .title .varillado {
         font-size: 15px;
         margin-bottom: -100px;
     }
