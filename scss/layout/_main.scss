@@ -1,0 +1,52 @@
+body {
+    background-color: $gris-fondo !important;
+    color: $blanco;
+}
+
+    .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    gap: 50px;
+    text-align: center;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        align-items: center;
+        margin: 0;
+    }
+
+    @media (min-width: 769px) {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 50px;
+    }
+}
+
+.derecha {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .fotoVari {
+        max-width: 100%;
+        border: 7px solid $blanco;
+        border-radius: 4px;
+        object-fit: contain;
+
+        @media (max-width: 768px) {
+            width: 90%;
+            max-width: 350px;
+        }
+
+        @media (min-width: 769px) {
+            max-width: 100%;
+            width: 500px;
+        }
+    }
+}
