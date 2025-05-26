@@ -1,5 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.lato-thin {
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-semibold {
+  font-weight: 520;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-weight: 900;
+  font-style: italic;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+}
+
+.lato-semibold {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
+.lato-semibold-italic {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+}
+
 body {
-  background-color: #8c8c8c;
+  background-color: #8c8c8c !important;
+  color: #f5f5f5;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  gap: 50px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+  }
+}
+@media (min-width: 769px) {
+  .main {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 50px;
+  }
+}
+
+.derecha {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.derecha .fotoVari {
+  max-width: 100%;
+  border: 7px solid #f5f5f5;
+  border-radius: 4px;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  .derecha .fotoVari {
+    width: 90%;
+    max-width: 350px;
+  }
+}
+@media (min-width: 769px) {
+  .derecha .fotoVari {
+    max-width: 100%;
+    width: 500px;
+  }
+}
+
+.encabezado {
+  text-align: center;
+}
+.encabezado h1 {
+  font-size: 1.5rem;
+}
+.encabezado .logo {
+  max-width: 70px;
+  height: auto;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.opciones a {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #f5f5f5;
+}
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 60px 20px;
+  min-height: calc(100vh - 150px);
+  gap: 40px;
+}
+.nosotros .title h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.nosotros .parrafo {
+  max-width: 60%;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .nosotros .parrafo {
+    font-size: 12px;
+    max-width: 90%;
+  }
+}
+.nosotros .logonosotros {
+  max-width: 70px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

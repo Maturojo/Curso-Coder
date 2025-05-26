@@ -1,9 +1,11 @@
-@import 'base/variables';
-@import 'base/reset';
-@import 'utils/mixins';
-@import 'utils/extends';
-@import 'components/tipografias';
-@import 'components/footer';
-@import 'layout/main';
-@import 'layout/header';
-@import 'layout/acerca';
+@use 'base/variables';
+@use 'base/reset';
+@use 'utils/mixins';
+@use 'utils/extends';
+@use 'components/tipografias';
+@use 'components/footer';
+@use 'layout/main';
+@use 'layout/header';
+@use 'layout/acerca';
+
+

@@ -1,3 +1,5 @@
+@use '../base/variables';
+
 .lato-thin         { font-weight: 100; font-style: normal; }
 .lato-light        { font-weight: 300; font-style: normal; }
 .lato-regular      { font-weight: 400; font-style: normal; }
@@ -10,12 +12,15 @@
 .lato-bold-italic  { font-weight: 700; font-style: italic; }
 .lato-black-italic { font-weight: 900; font-style: italic; }
 
-@each $clase in (thin, light, regular, semibold, bold, black) {
+@each $clase in ("thin", "light", "regular", "semibold", "bold", "black") {
     .lato-#{$clase} {
-    font-family: $fuente-principal;
+    font-family: variables.$fuente-principal;
+    font-style: normal;
     }
+
     .lato-#{$clase}-italic {
-        font-family: $fuente-principal;
+        font-family: variables.$fuente-principal;
         font-style: italic;
     }
 }
+
