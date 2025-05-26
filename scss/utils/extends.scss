@@ -1,1 +1,12 @@
- 
+@use '../base/variables';
+
+%text-base {
+    font-family: variables.$fuente-principal;
+    color: variables.$blanco;
+    line-height: 1.6;
+    }
+
+%box-borde {
+    border: 7px solid variables.$blanco;
+    border-radius: 4px;
+}
