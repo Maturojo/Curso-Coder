@@ -1,4 +1,9 @@
-$primary-color: #8c8c8c;
-body {
-    background-color: $primary-color;
-}
+@import 'base/variables';
+@import 'base/reset';
+@import 'utils/mixins';
+@import 'utils/extends';
+@import 'components/tipografias';
+@import 'components/footer';
+@import 'layout/main';
+@import 'layout/header';
+@import 'layout/acerca';
