@@ -1,0 +1,22 @@
+.encabezado {
+    text-align: center;
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        max-width: 70px;
+        height: auto;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+}
+
+.opciones {
+    a {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+        color: $blanco;
+    }
+}
