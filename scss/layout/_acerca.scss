@@ -1,0 +1,36 @@
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 60px 20px;
+    min-height: calc(100vh - 150px);
+    gap: 40px;
+
+    .title {
+        h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        }
+    }
+
+    .parrafo {
+        max-width: 60%;
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin: 0 auto;
+
+        @media (max-width: 768px) {
+        font-size: 12px;
+        max-width: 90%;
+        }
+    }
+
+    .logonosotros {
+        max-width: 70px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
