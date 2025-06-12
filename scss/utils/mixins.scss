@@ -1,0 +1,13 @@
+    @mixin centrado-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    @mixin responsive-texto($font-size-mobile, $font-size-desktop) {
+    font-size: $font-size-mobile;
+
+    @media (min-width: 769px) {
+        font-size: $font-size-desktop;
+    }
+    }
