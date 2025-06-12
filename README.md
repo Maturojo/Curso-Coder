@@ -10,10 +10,12 @@ Recrear una landing page para Sur Maderas, presentando sus productos y secciones
 
 - HTML5
 - CSS3
+- SASS
 - Bootstrap 5
 - Flexbox
 - Grid
 - Google Fonts (Lato)
+  
 
 ## 🧩 Estructura del proyecto
 
@@ -41,7 +43,7 @@ Se usaron `media queries`, clases de Bootstrap y unidades relativas para lograrl
 ## 🙌 Créditos
 
 Diseñado y desarrollado por **Matías Rojo**  
-Trabajo realizado para entrega numero 2.
+Trabajo realizado para entrega FINAL.
 
 ---
 
